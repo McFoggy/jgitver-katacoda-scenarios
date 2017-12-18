@@ -3,7 +3,11 @@
   "description": "Learn how to integrate jgitver inside an Apache Maven project",
   "details": {
     "steps": [
-      { "title": "Maven", "text": "step1.md" }
+      { 
+        "title": "Maven", 
+        "text": "step1.md",
+        "code": "maven-init.sh"
+      }
     ],
     "intro": {
       "text": "intro.md",
