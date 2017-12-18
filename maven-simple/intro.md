@@ -1,1 +1,2 @@
-we have automatically created a maven project for you.
+Welcome to this [jgitver](http://github.com/jgitver/jgitver) maven demo.
+
