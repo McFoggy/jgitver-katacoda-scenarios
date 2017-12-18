@@ -10,12 +10,15 @@
       { 
         "title": "Maven initialization", 
         "text": "step1.md",
-        "code": "maven-init.sh",
-        "courseData": "install-python.sh"
+        "code": "maven-init.sh"
       },
       {
         "title": "jgitver installation",
         "text": "step2.md"
+      },
+      {
+        "title": "git tagging",
+        "text": "step3.md"
       },
       {
         "title": "Completed!",

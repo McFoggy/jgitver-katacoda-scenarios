@@ -14,13 +14,3 @@ Now verify that [jgitver](http://github.com/jgitver/jgitver) operates by checkin
 Version is now overrided by jgitver to `0.0.0-SNAPSHOT` using the history of the project.  
 `git lg`{{execute}}
 Using no special configuration, project versioning starts with `0.0.0` and uses `SNAPSHOT qualifier`.  
-
-Now let's terminate with one of the main interest of [jgitver](http://github.com/jgitver/jgitver): _tagging_:
-- create an annotated release tag: `git tag -a -m "release 1.0" 1.0`{{execute}}
-- now maven project version calculated by jgitver is `1.0.0`: `mvn validate`{{execute}}  
-
-Feel free now to:
-- follow the other [training scenarios](https://www.katacoda.com/mcfoggy/scenarios)
-- consult the [jgitver](http://github.com/jgitver/jgitver) and [jgitver-maven-plugin](http://github.com/jgitver/jgitver) documentations
-- ask questions and chat on [gitter](https://gitter.im/jgitver/Lobby)
-
