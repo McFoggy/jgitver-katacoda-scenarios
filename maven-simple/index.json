@@ -3,18 +3,28 @@
   "description": "Learn how to integrate jgitver inside an Apache Maven project",
   "details": {
     "steps": [
+      {
+        "text": "intro.md",
+        "courseData": "env-init.sh"
+      }, 
       { 
         "title": "Maven initialization", 
         "text": "step1.md",
         "code": "maven-init.sh"
+      },
+      {
+        "title": "jgitver installation",
+        "text": "step2.md"
+      },
+      {
+        "title": "Completed!",
+        "text": "finish.md"
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "courseData": "env-init.sh"
+
     },
     "finish": {
-      "text": "finish.md"
     }
   },
   "environment": {
