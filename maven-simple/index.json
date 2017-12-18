@@ -21,12 +21,7 @@
         "title": "Completed!",
         "text": "finish.md"
       }
-    ],
-    "intro": {
-
-    },
-    "finish": {
-    }
+    ]
   },
   "environment": {
     "uilayout": "terminal"
