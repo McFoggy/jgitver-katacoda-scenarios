@@ -7,6 +7,12 @@ mvn archetype:generate \
   -DinteractiveMode=false \
   -DarchetypeCatalog=local
 cd simple-maven-demo
+
+echo waiting for git installation to finish...
+sleep 3
+echo.
+echo done.
+
 git init
 git config user.name "Scrap Kata-Coda"
 git config user.email "scrapbook@nowhere.com"
