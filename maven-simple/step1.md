@@ -1,5 +1,5 @@
 A maven project is being initialized.    
-Once the terminal has been cleared, let's start.  
+Once the terminal is cleared, let's start.  
 
 Let's discover what has been created  
 `ls`{{execute}}  

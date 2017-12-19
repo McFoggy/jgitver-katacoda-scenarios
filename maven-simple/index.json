@@ -6,8 +6,7 @@
     "steps": [
       {
         "text": "tools.md",
-        "courseData": "tools-init.sh",
-        "verify": "tools-verify.sh"
+        "code": "tools-init.sh"
       }, 
       { 
         "title": "Maven initialization", 
