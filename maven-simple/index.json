@@ -1,5 +1,6 @@
 {
-  "title": "jgitver simple maven usage",
+  "pathwayTitle": "jgitver",
+  "title": "jgitver maven introduction",
   "description": "Learn how to integrate jgitver inside an Apache Maven project",
   "difficulty": "Beginner",
   "details": {
