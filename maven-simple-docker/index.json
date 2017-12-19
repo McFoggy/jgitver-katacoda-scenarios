@@ -1,0 +1,19 @@
+{
+  "pathwayTitle": "jgitver",
+  "title": "jgitver maven introduction on docker",
+  "description": "Learn how to integrate jgitver inside an Apache Maven project",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
