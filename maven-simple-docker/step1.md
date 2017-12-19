@@ -1,4 +1,10 @@
-Step 1
+Open a docker container with all the required tooling
+- maven
+- git
+
+`docker run -it --rm mcfoggy/jgitver-maven /bin/bash`{{execute}} 
+
+Let's create a default maven project.
 
 `mkdir -p /projects && cd /prjects && mvn archetype:generate \
   -DgroupId=fr.brouillard.jgitver.demos \
@@ -9,15 +15,22 @@ Step 1
   -DinteractiveMode=false \
   -DarchetypeCatalog=local`{{execute}}
 
-````
-cd simple-maven-demo
+With some git history
 
-git init
-git config user.name "Scrap Kata-Coda"
-git config user.email "scrapbook@nowhere.com"
-echo target/ > .gitignore
-git add .
-git commit -m "initial version"
+`
+cd simple-maven-demo \
+git init \
+git config user.name "Scrap Kata-Coda" \
+git config user.email "scrapbook@nowhere.com" \
+echo target/ > .gitignore \
+git add . \
+git commit -m "initial version" \
+`{{execute}}
 
-clear
-````
+We now have a default running maven project
+
+`mvn validate`{{execute}}
+
+which version is defined by the pom version node as `1.0.0-SNAPSHOT`
+
+`cat pom.xml`{{execute}}
