@@ -1,6 +1,4 @@
-Open a docker container with all the required tooling
-- maven
-- git
+Open a docker container with all the required tooling: maven, git.
 
 `docker run -it --rm mcfoggy/jgitver-maven /bin/bash`{{execute}} 
 
@@ -32,4 +30,4 @@ We now have a default running maven project
 
 which version is defined by the pom version node as `1.0.0-SNAPSHOT`
 
-`cat pom.xml`{{execute}}
+`grep -E --color=auto '^.*1.0.0-SNAPSHOT.*$|$' pom.xml`{{execute}}

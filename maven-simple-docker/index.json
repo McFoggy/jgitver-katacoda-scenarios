@@ -6,7 +6,16 @@
   "details": {
     "steps": [
       {
+        "title": "project initialization",
         "text": "step1.md"
+      },
+      {
+        "title": "jgitver installation",
+        "text": "step2.md"
+      },
+      {
+        "title": "git tagging",
+        "text": "step3.md"
       }
     ],
     "intro": {
