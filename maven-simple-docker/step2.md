@@ -20,6 +20,6 @@ jgitver should have hooked in maven build and printed the following
 ````
 
 Version is now overridden by jgitver to `0.0.0-SNAPSHOT` using the history of the project.    
-`git lg`{{execute}}  
+`git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit`{{execute}}  
 
 Using no special configuration, project versioning starts with `0.0.0` and uses `SNAPSHOT qualifier`.  
