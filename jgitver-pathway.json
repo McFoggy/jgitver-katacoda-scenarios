@@ -1,0 +1,10 @@
+{
+  "title": "jgitver",
+  "courses": [
+    {
+      "external_link": "https://github.com/jgitver/jgitver-maven-plugin",
+      "course_id": "maven-intro",
+      "title": "Getting Started with jgitver in Apache Maven"
+    }
+  ]
+}

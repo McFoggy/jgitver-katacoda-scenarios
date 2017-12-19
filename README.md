@@ -1,1 +1,3 @@
-# jgitver katakodas samples 
+# McFoggy katakodas trainings
+
+ 
