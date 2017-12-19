@@ -16,3 +16,4 @@ echo target/ > .gitignore
 git add .
 git commit -m "initial version"
 
+clear

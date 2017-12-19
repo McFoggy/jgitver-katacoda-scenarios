@@ -1,0 +1,1 @@
+command -v git >/dev/null && command -v jq >/dev/null && echo Tools installed!

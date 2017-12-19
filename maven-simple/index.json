@@ -4,13 +4,15 @@
   "details": {
     "steps": [
       {
-        "text": "intro.md",
-        "courseData": "env-init.sh"
+        "text": "tools.md",
+        "courseData": "tools-init.sh",
+        "verify": "tools-verify.sh"
       }, 
       { 
         "title": "Maven initialization", 
         "text": "step1.md",
-        "code": "maven-init.sh"
+        "code": "maven-init.sh",
+        "verify": ""
       },
       {
         "title": "jgitver installation",
@@ -24,7 +26,11 @@
         "title": "Completed!",
         "text": "finish.md"
       }
-    ]
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "http://oss.brouillard.fr"
+    }
   },
   "environment": {
     "uilayout": "terminal"
