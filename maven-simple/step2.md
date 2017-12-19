@@ -11,6 +11,14 @@ Let's install it.
 Now verify that [jgitver](http://github.com/jgitver/jgitver) operates by checking with maven the calculated project version  
 `mvn validate`{{execute}}  
 
-Version is now overrided by jgitver to `0.0.0-SNAPSHOT` using the history of the project.  
+jgitver should have hooked in maven build and printed the following
+````
+...
+[INFO] jgitver-maven-plugin is about to change project(s) version(s)
+[INFO]     fr.brouillard.jgitver.demos::simple-maven-demo::1.0.0-SNAPSHOT -> 0.0.0-SNAPSHOT
+...
+````
+
+Version is now overridden by jgitver to `0.0.0-SNAPSHOT` using the history of the project.  
 `git lg`{{execute}}
 Using no special configuration, project versioning starts with `0.0.0` and uses `SNAPSHOT qualifier`.  
