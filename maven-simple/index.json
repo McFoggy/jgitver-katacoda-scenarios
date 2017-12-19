@@ -12,8 +12,7 @@
       { 
         "title": "Maven initialization", 
         "text": "step1.md",
-        "code": "maven-init.sh",
-        "verify": ""
+        "code": "maven-init.sh"
       },
       {
         "title": "jgitver installation",
