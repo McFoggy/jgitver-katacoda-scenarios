@@ -6,7 +6,7 @@ Do not bother on the syntax, we've prepared some automatic scripts for you that 
 
 Let's install it.  
 
-`sh -c "$(wget -q https://git.io/fA6sj -O -)""`{{execute}}
+`sh -c "$(wget -q https://git.io/fA6sj -O -)"`{{execute}}
 
 Now verify that [jgitver](http://github.com/jgitver/jgitver) operates by checking with maven the calculated project version  
 `mvn validate`{{execute}}  
