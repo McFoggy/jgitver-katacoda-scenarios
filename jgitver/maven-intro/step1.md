@@ -20,6 +20,7 @@ cd simple-maven-demo && \
 git init && \
 git config user.name "Scrap Kata-Coda" && \
 git config user.email "scrapbook@nowhere.com" && \
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit" \
 echo target/ > .gitignore && \
 git add . && \
 git commit -m "initial version"`{{execute}}
