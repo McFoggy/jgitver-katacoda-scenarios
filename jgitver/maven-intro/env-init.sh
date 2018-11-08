@@ -1,1 +1,1 @@
-docker pull mcfoggy/jgitver-maven
+docker pull maven:3.5

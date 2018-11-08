@@ -1,6 +1,6 @@
 Open a docker container with all the required tooling: maven, git.
 
-`docker run -it --rm mcfoggy/jgitver-maven /bin/bash`{{execute}} 
+`docker run -it --rm maven:3.5 /bin/bash`{{execute}} 
 
 Let's create a default maven project.
 
