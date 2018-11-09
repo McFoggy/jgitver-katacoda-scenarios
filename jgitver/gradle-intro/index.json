@@ -1,0 +1,33 @@
+{
+  "pathwayTitle": "jgitver",
+  "title": "jgitver on Gradle introduction using docker",
+  "description": "Learn how to integrate jgitver inside an Gradle",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {
+        "title": "project initialization",
+        "text": "step1.md"
+      },
+      {
+        "title": "jgitver installation",
+        "text": "step2.md"
+      },
+      {
+        "title": "git tagging",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh",
+      "credits": "https://jgitver.github.io"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
