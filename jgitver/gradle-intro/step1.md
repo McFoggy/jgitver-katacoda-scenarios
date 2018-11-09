@@ -4,10 +4,10 @@ Open a docker container with all the required tooling: maven, git.
 
 Let's create a default maven project.
 
-`mkdir demo-jgitver && \
- cd demo-jgitver && \
- gradle init --type java-library && \
- export JL_LINE=$(grep -n "id 'java-library'" build.gradle | cut -d ':' -f 1) && \
+`mkdir demo-jgitver
+ cd demo-jgitver
+ gradle init --type java-library
+ export JL_LINE=$(grep -n "id 'java-library'" build.gradle | cut -d ':' -f 1)
  gradle build`{{execute}}
 
 With some git history
@@ -20,12 +20,12 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 git add .
 git commit -m "initial version"`{{execute}}
 
-We now have a default buildable gradle project.
+We now have a default buildable gradle project.  
 What is the current project version?
 
 `gradle --console=plain properties | grep -E '^version:.*'`{{execute}}
 
-The `build.gradle` does not define the value of the `version` property provided by the `java-library` plugin.
+The `build.gradle` does not define the value of the `version` property provided by the `java-library` plugin, so it is reported as `undefined`.
 
 In standard Gradle projects, you would edit the `build.gradle` file in order to set the `version` property to `1.0.0`, `2.1.1-SNAPSHOT` or something like that.
 
