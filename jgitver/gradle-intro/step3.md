@@ -4,7 +4,7 @@ Let's consider that we are satisfied with the current state of our project and w
 
 For that you just need to create a tag `git tag -a -m "release 1.0.0" 1.0.0`{{execute}}
 
-You can verify that the tag is there and that git HEAD is on the same commit than the tag `git lg`{{execute}}    
+You can verify that the tag is there and that git `HEAD` is on the same commit than the tag `git lg`{{execute}}    
 
 Now Gradle project version calculated by jgitver should be `1.0.0`    
 `gradle version`{{execute}}  

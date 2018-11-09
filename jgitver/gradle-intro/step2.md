@@ -28,7 +28,7 @@ Now verify that [jgitver](https://jgitver.github.io) operates by checking again 
 
 As you can see the project version is now overridden by jgitver to `0.0.0-0`.
 
-As we edited the `build.gradle` file, let's commit it and check the version again.
+As we edited the `build.gradle` file to add the plugin, let's be clean and commit it. Wel'l then check the version again.
 
 `git commit -am "introduce jgitver plugin"
 gradle version`{{execute}}

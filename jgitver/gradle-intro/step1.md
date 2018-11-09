@@ -5,10 +5,10 @@ Open a docker container with all the required tooling: maven, git.
 Let's create a default maven project.
 
 `mkdir demo-jgitver
- cd demo-jgitver
- gradle init --type java-library
- export JL_LINE=$(grep -n "id 'java-library'" build.gradle | cut -d ':' -f 1)
- gradle build`{{execute}}
+cd demo-jgitver
+gradle init --type java-library
+export JL_LINE=$(grep -n "id 'java-library'" build.gradle | cut -d ':' -f 1)
+gradle build`{{execute}}
 
 With some git history
 
