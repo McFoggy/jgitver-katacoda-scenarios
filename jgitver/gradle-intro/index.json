@@ -1,7 +1,7 @@
 {
   "pathwayTitle": "jgitver",
-  "title": "jgitver on Gradle introduction using docker",
-  "description": "Learn how to integrate jgitver inside an Gradle",
+  "title": "jgitver on Gradle, an introduction using docker",
+  "description": "Learn how to integrate jgitver inside a Gradle project",
   "difficulty": "Beginner",
   "details": {
     "steps": [
