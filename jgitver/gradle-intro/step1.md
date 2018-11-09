@@ -1,8 +1,8 @@
-Open a docker container with all the required tooling: maven, git.
+Open a docker container with all the required tooling: gradle, git.
 
 `docker run -it --rm gradle:4.10-jdk8 /bin/bash`{{execute}} 
 
-Let's create a default maven project.
+Let's create a simple java gradle project.
 
 `mkdir demo-jgitver
 cd demo-jgitver
