@@ -2,11 +2,10 @@ Now that we have a running project with [jgitver](https://jgitver.github.io), le
 
 In order to change the defaults of jgitver, we need to provide a configuration file located at `PROJECT/.mvn/jgitver.config.xml`.
 
-`cat > .mvn/jgitver.config.xml << EOF
-<configuration xmlns="http://jgitver.github.io/maven/configuration/1.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://jgitver.github.io/maven/configuration/1.0.0 https://jgitver.github.io/maven/configuration/jgitver-configuration-v1_0_0.xsd ">
-</configuration>
+`echo '<configuration xmlns="http://jgitver.github.io/maven/configuration/1.0.0"' > .mvn/jgitver.config.xml && \
+echo '    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"' >> .mvn/jgitver.config.xml && \
+echo '    xsi:schemaLocation="http://jgitver.github.io/maven/configuration/1.0.0 https://jgitver.github.io/maven/configuration/jgitver-configuration-v1_0_0.xsd">' >> .mvn/jgitver.config.xml && \
+echo '</configuration>' >> .mvn/jgitver.config.xml 
 EOF`{{execute}}
 
 Let's note that as we have added a new file, our current git repository is now _dirty_ because a new file appeared.
