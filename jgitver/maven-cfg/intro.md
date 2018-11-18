@@ -1,10 +1,5 @@
-Welcome to this [jgitver](http://github.com/jgitver/jgitver) maven demo.
+Welcome to this [jgitver](http://jgitver.github.io) maven demo.
 
-In this tutorial, you will see how to integrate [jgitver](http://github.com/jgitver/jgitver) into an existing maven project.
-
-[jgitver](http://github.com/jgitver/jgitver) will allow automatic project version computation based 
-on git information _(tags, commits, branches, ...)_
- 
-![jgitver maven simple usage](../../assets/jgitver/jgitver-maven-plugin-homepage.png)
+In this tutorial, you will see how to start changing [jgitver](http://jgitver.github.io) configuration by creating & modifying a `.mvn/jgitver.config.xml` file.
 
 For now let's move to the next slide.
