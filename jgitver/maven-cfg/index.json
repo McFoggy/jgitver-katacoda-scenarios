@@ -18,6 +18,9 @@
       "text": "intro.md",
       "courseData": "env-init.sh",
       "credits": "https://jgitver.github.io"
+    },
+    "finish": {
+      "text": "finish.md"
     }
   },
   "environment": {
