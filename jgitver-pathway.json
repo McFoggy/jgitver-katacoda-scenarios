@@ -7,6 +7,11 @@
       "title": "Getting started with jgitver on Apache Maven"
     },
     {
+      "external_link": "https://jgitver.github.io/#_maven_usage",
+      "course_id": "maven-cfg",
+      "title": "Play with jgitver configuration for Apache Maven"
+    },
+    {
       "external_link": "https://jgitver.github.io/#_gradle_usage",
       "course_id": "gradle-intro",
       "title": "Getting started with jgitver on Gradle"
